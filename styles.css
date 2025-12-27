@@ -39,3 +39,8 @@ ul li{margin:6px 0;list-style:disc}
   body{background:#fff;color:#000}
   .project{background:#fff;border-color:#ddd}
 }
+
+/* anchor navigation */
+html{scroll-behavior:smooth;}
+section{scroll-margin-top:90px;}
+section:target{outline:2px solid currentColor;outline-offset:12px;border-radius:12px;}
