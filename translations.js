@@ -1,4 +1,4 @@
-﻿const T = {
+const T = {
   role: {
     pt: "Big Data / Data Engineer · Cloud & Analytics",
     en: "Big Data / Data Engineer · Cloud & Analytics"
@@ -8,8 +8,8 @@
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Engenheiro de Dados com foco em Big Data, Analytics e Cloud. Experiência prática em pipelines ETL, modelação dimensional, SQL avançado e dashboards analíticos. Background técnico sólido com transição consistente para engenharia de dados.",
-    en: "Data Engineer focused on Big Data, Analytics and Cloud. Hands-on experience with ETL pipelines, dimensional modeling, advanced SQL and analytical dashboards. Strong technical background with a consistent transition into data engineering."
+    pt: "Engenheiro de Dados com foco em Big Data, Analytics e Cloud. Experiência prática em ETL, modelação dimensional, SQL e dashboards. Projetos reais e académicos com preocupação de qualidade (tests, documentação e reprodutibilidade).",
+    en: "Data Engineer focused on Big Data, Analytics and Cloud. Hands-on experience with ETL pipelines, dimensional modeling, SQL and analytical dashboards. Real-world and academic projects with a focus on quality (tests, documentation and reproducibility)."
   },
 
   "skills.title": { pt: "Competências Técnicas", en: "Technical Skills" },
@@ -18,15 +18,15 @@
     en: "Python, SQL, Pandas, NumPy, Jupyter, Git"
   },
   "skills.devops": {
-    pt: "Docker, ambientes virtuais, automação básica",
-    en: "Docker, virtual environments, basic automation"
+    pt: "Docker, ambientes virtuais, automação básica, boas práticas de repositório",
+    en: "Docker, virtual environments, basic automation, repository best practices"
   },
   "skills.data": {
-    pt: "ETL, modelação dimensional, dados mock e reais, validação de dados",
-    en: "ETL, dimensional modeling, mock and real datasets, data validation"
+    pt: "ETL, modelação dimensional, validação de dados, dbt (models/tests/docs), Snowflake (analytics)",
+    en: "ETL, dimensional modeling, data validation, dbt (models/tests/docs), Snowflake (analytics)"
   },
   "skills.ai": {
-    pt: "Noções práticas de AI aplicada a dados e automação",
+    pt: "Noções práticas de IA aplicada a dados e automação",
     en: "Practical understanding of AI applied to data and automation"
   },
   "skills.integr": {
@@ -38,63 +38,59 @@
     en: "Metrics analysis, KPIs and reporting"
   },
   "skills.sec": {
-    pt: "Boas práticas de estruturação e organização de projetos",
-    en: "Good practices in project structuring and organization"
+    pt: "Estruturação e organização de projetos (documentação, naming e consistência)",
+    en: "Project structuring and organization (documentation, naming and consistency)"
   },
 
   "projects.title": { pt: "Projetos Relevantes", en: "Relevant Projects" },
 
-  /* Projeto 1 — PHC Analytics (profissional) */
+  "p1.title": { pt: "PHC Analytics", en: "PHC Analytics" },
   "p1.b1": {
-    pt: "PHC Analytics — projeto completo de analytics empresarial.",
-    en: "PHC Analytics — end-to-end business analytics project."
+    pt: "Projeto completo de analytics empresarial.",
+    en: "End-to-end business analytics project."
   },
   "p1.b2": {
     pt: "Criação de dados mock, pipelines ETL e modelo dimensional.",
-    en: "Mock data generation, ETL pipelines and dimensional model."
+    en: "Mock data generation, ETL pipelines and a dimensional model."
   },
   "p1.b3": {
-    pt: "KPIs, métricas de negócio e dashboard analítico em Python.",
-    en: "Business KPIs, metrics and analytical dashboard in Python."
+    pt: "KPIs e dashboard analítico em Python.",
+    en: "KPIs and an analytical dashboard in Python."
   },
   "p1.b4": {
     pt: "Projeto entregue em contexto profissional (JWEF / PHC).",
     en: "Project delivered in a professional context (JWEF / PHC)."
   },
 
-  /* Projeto 2 — dbt + Snowflake */
+  "p2.title": { pt: "dbt + Snowflake Analytics Platform", en: "dbt + Snowflake Analytics Platform" },
   "p2.b1": {
-    pt: "Plataforma de analytics engineering com dbt e Snowflake.",
-    en: "Analytics engineering platform using dbt and Snowflake."
+    pt: "Modelação por camadas (staging → intermediate → marts) com foco em analytics engineering.",
+    en: "Layered modeling (staging → intermediate → marts) focused on analytics engineering."
   },
   "p2.b2": {
-    pt: "Modelação dimensional (dimensões e factos) e date spine.",
-    en: "Dimensional modeling (dimensions and facts) with date spine."
+    pt: "Modelo dimensional com dim_date (date spine) e facts diárias (inclui dias sem vendas com zeros).",
+    en: "Dimensional model with dim_date (date spine) and daily facts (zero-filled days with no orders)."
   },
   "p2.b3": {
-    pt: "Testes de qualidade de dados, lineage e documentação automática.",
-    en: "Data quality tests, lineage and automated documentation."
-  },
-  "p2.b4": {
-    pt: "Builds reprodutíveis e projeto preparado para portfólio e entrevistas.",
-    en: "Repeatable builds and project prepared for portfolio and interviews."
+    pt: "Data quality tests (not_null, unique, relationships, accepted_values) e dbt Docs (catalog + lineage).",
+    en: "Data quality tests (not_null, unique, relationships, accepted_values) and dbt Docs (catalog + lineage)."
   },
 
-  /* Projeto 3 — CRSET Solutions (plataforma própria) */
+  "p3.title": { pt: "CRSET Solutions (Full Stack)", en: "CRSET Solutions (Full Stack)" },
   "p3.b1": {
-    pt: "CRSET Solutions — plataforma própria desenhada e construída de raiz.",
-    en: "CRSET Solutions — proprietary platform designed and built from scratch."
+    pt: "Plataforma desenhada e construída por mim, com foco em automação e produtos digitais.",
+    en: "Platform designed and built by me, focused on automation and digital products."
   },
   "p3.b2": {
-    pt: "Integração de frontend, backend, automações e pipelines de dados.",
-    en: "Integration of frontend, backend, automations and data pipelines."
+    pt: "Frontend Next.js e backend FastAPI, com integrações reais (ex.: envio de contacto/email, base de dados).",
+    en: "Next.js frontend and FastAPI backend, with real integrations (e.g., contact/email flow, database)."
   },
   "p3.b3": {
-    pt: "Projeto full stack que demonstra visão de produto e capacidade técnica.",
-    en: "Full stack project demonstrating product vision and technical capability."
+    pt: "Deploy e manutenção com boas práticas (organização, versões, observabilidade e estabilidade em produção).",
+    en: "Deployed and maintained with good practices (organization, versioning, observability and production stability)."
   },
 
-  /* Projeto 4 — Big Data com PySpark (académico) */
+  "p4.title": { pt: "PySpark Big Data (Académico)", en: "PySpark Big Data (Academic)" },
   "p4.b1": {
     pt: "Projeto académico de Big Data com PySpark (tráfego aéreo).",
     en: "Academic Big Data project using PySpark (air traffic data)."
@@ -109,7 +105,6 @@
   },
 
   "exp.title": { pt: "Experiência", en: "Experience" },
-
   "exp.1": {
     pt: "2023–2025 · Data / Big Data Engineer — Projetos práticos no âmbito da formação em Big Data (Tokio School), com foco em ETL, analytics e cloud.",
     en: "2023–2025 · Data / Big Data Engineer — Hands-on projects within Big Data training (Tokio School), focused on ETL, analytics and cloud."
