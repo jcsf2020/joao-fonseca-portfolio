@@ -8,8 +8,8 @@ const T = {
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Analytics Engineer com foco em Snowflake, dbt e modelação dimensional. Experiência prática em arquitetura de camadas (staging → intermediate → marts), data quality tests e KPIs de negócio. Projetos orientados à produção: reprodutíveis, documentados e alinhados com práticas modernas de analytics engineering.",
-    en: "Analytics Engineer focused on Snowflake, dbt and dimensional modeling. Hands-on experience with layered architecture (staging → intermediate → marts), data quality tests and business KPIs. Production-oriented projects: reproducible, documented and aligned with modern analytics engineering practices."
+    pt: "Analytics Engineer especializado em Snowflake e dbt, com foco em modelação dimensional e data quality. Experiência em arquitetura por camadas (staging → intermediate → marts), construção de fact tables robustas e definição de KPIs de negócio em ambientes orientados à produção.",
+    en: "Analytics Engineer specialized in Snowflake and dbt, focused on dimensional modeling and data quality. Experience designing layered architectures (staging → intermediate → marts), building robust fact tables, and defining business KPIs in production-oriented environments."
   },
 
   "skills.title": { pt: "Competências Técnicas", en: "Technical Skills" },
@@ -48,16 +48,16 @@ const T = {
 
   "p2.title": { pt: "PHC Analytics", en: "PHC Analytics" },
   "p2.b1": {
-    pt: "Projeto de analytics empresarial entregue em contexto profissional (JWEF / PHC), com pipelines ETL e modelo dimensional.",
-    en: "Business analytics project delivered in a professional context (JWEF / PHC), with ETL pipelines and a dimensional model."
+    pt: "Solução de analytics empresarial entregue no ecossistema PHC (JWEB), com pipelines ETL e modelação dimensional.",
+    en: "Business analytics solution delivered within the PHC ecosystem (JWEB), including ETL pipelines and dimensional modeling."
   },
   "p2.b2": {
-    pt: "KPIs diários de vendas, clientes e operações com análise de variações e métricas de negócio.",
-    en: "Daily KPIs covering sales, customers and operations with variance analysis and business metrics."
+    pt: "KPIs diários de vendas, clientes e operações, com análise de variações e métricas de negócio.",
+    en: "Daily KPIs for sales, customers and operations, with variance analysis and business metrics."
   },
   "p2.b3": {
     pt: "Dashboard analítico em Python com reporting orientado ao negócio e foco em reprodutibilidade.",
-    en: "Analytical dashboard in Python with business-oriented reporting and a focus on reproducibility."
+    en: "Python-based analytics dashboard with business-oriented reporting and reproducibility in mind."
   },
 
   "p3.title": { pt: "CRSET Solutions (Full Stack)", en: "CRSET Solutions (Full Stack)" },
