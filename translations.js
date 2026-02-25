@@ -8,7 +8,7 @@ const T = {
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Analytics Engineer especializado em Snowflake e dbt, com foco em modelacao dimensional, data quality e arquitetura analitica orientada a producao. Experiencia na construcao de pipelines em camadas (staging → intermediate → marts), definicao de modelos dimensionais robustos e implementacao de boas praticas de governance e versionamento em ambientes reais.",
+    pt: "Analytics Engineer especializado em Snowflake e dbt, com foco em modelação dimensional, data quality e arquitetura analítica orientada a produção. Experiência na construção de pipelines em camadas (staging → intermediate → marts), definição de modelos dimensionais robustos e implementação de boas práticas de governance e versionamento em ambientes reais.",
     en: "Analytics Engineer specialized in Snowflake and dbt, focused on dimensional modeling, data quality and production-oriented analytics architecture. Experience building layered pipelines (staging → intermediate → marts), designing robust dimensional models and applying governance and version control best practices in real-world environments."
   },
 
@@ -48,7 +48,7 @@ const T = {
 
   "p2.title": { pt: "PHC Analytics", en: "PHC Analytics" },
   "p2.b1": {
-    pt: "Solução analitica desenvolvida no ecossistema PHC (JWEB), com pipelines ETL e modelacao dimensional orientada a KPIs de negocio.",
+    pt: "Solução analítica desenvolvida no ecossistema PHC (JWEB), com pipelines ETL e modelação dimensional orientada a KPIs de negócio.",
     en: "Analytics solution developed within the PHC ecosystem (JWEB), including ETL pipelines and business-oriented dimensional modeling."
   },
   "p2.b2": {
@@ -62,21 +62,21 @@ const T = {
 
   "p3.title": { pt: "CRSET Solutions — Engineering Showcase", en: "CRSET Solutions — Engineering Showcase" },
   "p3.b1": {
-    pt: "Showcase tecnico desenvolvido com Next.js (App Router) e API estruturada, demonstrando arquitetura orientada a producao, disciplina de CI, observabilidade, seguranca e integracoes reais com backend.",
+    pt: "Showcase técnico desenvolvido com Next.js (App Router) e API estruturada, demonstrando arquitetura orientada a produção, disciplina de CI, observabilidade, segurança e integrações reais com backend.",
     en: "Engineering showcase built with Next.js (App Router) and structured API boundaries, demonstrating production-grade architecture, CI discipline, observability, security hardening and real backend integrations."
   },
   "p3.b2": {
-    pt: "Integracoes reais (contact/email, base de dados) e deploy em producao.",
+    pt: "Integrações reais (contact/email, base de dados) e deploy em produção.",
     en: "Real integrations (contact/email, database) and production deployment."
   },
   "p3.b3": {
-    pt: "Boas praticas aplicadas: SEO, performance budgets, guardrails e hardening de seguranca.",
+    pt: "Boas práticas aplicadas: SEO, performance budgets, guardrails e hardening de segurança.",
     en: "Applied best practices: SEO, performance budgets, guardrails and security hardening."
   },
 
   "exp.title": { pt: "Experiência", en: "Experience" },
   "exp.1": {
-    pt: "2023–2025 · Data Engineer (Analytics Engineering Focus) — Desenvolvimento de pipelines ETL, modelacao dimensional e implementacao de projetos com dbt e Snowflake em contexto pratico e orientado a producao.",
+    pt: "2023–2025 · Data Engineer (Analytics Engineering Focus) — Desenvolvimento de pipelines ETL, modelação dimensional e implementação de projetos com dbt e Snowflake em contexto prático e orientado a produção.",
     en: "2023–2025 · Data Engineer (Analytics Engineering Focus) — Development of ETL pipelines, dimensional modeling and dbt/Snowflake projects in practical, production-oriented contexts."
   },
   "exp.2": {
