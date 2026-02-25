@@ -66,12 +66,12 @@ const T = {
     en: "Engineering showcase built with Next.js (App Router) and structured API boundaries, demonstrating production-grade architecture, CI discipline, observability, security hardening and real backend integrations."
   },
   "p3.b2": {
-    pt: "",
-    en: ""
+    pt: "Integracoes reais (contact/email, base de dados) e deploy em producao.",
+    en: "Real integrations (contact/email, database) and production deployment."
   },
   "p3.b3": {
-    pt: "",
-    en: ""
+    pt: "Boas praticas aplicadas: SEO, performance budgets, guardrails e hardening de seguranca.",
+    en: "Applied best practices: SEO, performance budgets, guardrails and security hardening."
   },
 
   "exp.title": { pt: "Experiência", en: "Experience" },
