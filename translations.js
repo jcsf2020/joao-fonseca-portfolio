@@ -8,8 +8,8 @@ const T = {
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Analytics Engineer especializado em Snowflake e dbt, com foco em modelação dimensional e data quality. Experiência em arquitetura por camadas (staging → intermediate → marts), construção de fact tables robustas e definição de KPIs de negócio em ambientes orientados à produção.",
-    en: "Analytics Engineer specialized in Snowflake and dbt, focused on dimensional modeling and data quality. Experience designing layered architectures (staging → intermediate → marts), building robust fact tables, and defining business KPIs in production-oriented environments."
+    pt: "Analytics Engineer especializado em Snowflake e dbt, com foco em modelacao dimensional, data quality e arquitetura analitica orientada a producao. Experiencia na construcao de pipelines em camadas (staging → intermediate → marts), definicao de modelos dimensionais robustos e implementacao de boas praticas de governance e versionamento em ambientes reais.",
+    en: "Analytics Engineer specialized in Snowflake and dbt, focused on dimensional modeling, data quality and production-oriented analytics architecture. Experience building layered pipelines (staging → intermediate → marts), designing robust dimensional models and applying governance and version control best practices in real-world environments."
   },
 
   "skills.title": { pt: "Competências Técnicas", en: "Technical Skills" },
@@ -48,8 +48,8 @@ const T = {
 
   "p2.title": { pt: "PHC Analytics", en: "PHC Analytics" },
   "p2.b1": {
-    pt: "Solução de analytics empresarial entregue no ecossistema PHC (JWEB), com pipelines ETL e modelação dimensional.",
-    en: "Business analytics solution delivered within the PHC ecosystem (JWEB), including ETL pipelines and dimensional modeling."
+    pt: "Solução analitica desenvolvida no ecossistema PHC (JWEB), com pipelines ETL e modelacao dimensional orientada a KPIs de negocio.",
+    en: "Analytics solution developed within the PHC ecosystem (JWEB), including ETL pipelines and business-oriented dimensional modeling."
   },
   "p2.b2": {
     pt: "KPIs diários de vendas, clientes e operações, com análise de variações e métricas de negócio.",
@@ -60,24 +60,24 @@ const T = {
     en: "Python-based analytics dashboard with business-oriented reporting and reproducibility in mind."
   },
 
-  "p3.title": { pt: "CRSET Solutions (Full Stack)", en: "CRSET Solutions (Full Stack)" },
+  "p3.title": { pt: "CRSET Solutions — Engineering Showcase", en: "CRSET Solutions — Engineering Showcase" },
   "p3.b1": {
-    pt: "Plataforma desenhada e construída de raiz, com frontend Next.js e backend FastAPI.",
-    en: "Platform designed and built from scratch, with Next.js frontend and FastAPI backend."
+    pt: "Showcase tecnico desenvolvido com Next.js (App Router) e API estruturada, demonstrando arquitetura orientada a producao, disciplina de CI, observabilidade, seguranca e integracoes reais com backend.",
+    en: "Engineering showcase built with Next.js (App Router) and structured API boundaries, demonstrating production-grade architecture, CI discipline, observability, security hardening and real backend integrations."
   },
   "p3.b2": {
-    pt: "Integrações reais (fluxo de contacto/email, base de dados) e deploy em produção.",
-    en: "Real integrations (contact/email flow, database) and production deployment."
+    pt: "",
+    en: ""
   },
   "p3.b3": {
-    pt: "Mantida com boas práticas: organização, versionamento, observabilidade e estabilidade.",
-    en: "Maintained with good practices: organization, versioning, observability and stability."
+    pt: "",
+    en: ""
   },
 
   "exp.title": { pt: "Experiência", en: "Experience" },
   "exp.1": {
-    pt: "2023–2025 · Data Engineer (Projetos Práticos, Foco em Analytics Engineering) — Desenvolvimento de pipelines ETL, modelação dimensional, dbt e Snowflake em contexto de projetos reais.",
-    en: "2023–2025 · Data Engineer (Hands-on Projects, Analytics Engineering Focus) — ETL pipelines, dimensional modeling, dbt and Snowflake across real-world projects."
+    pt: "2023–2025 · Data Engineer (Analytics Engineering Focus) — Desenvolvimento de pipelines ETL, modelacao dimensional e implementacao de projetos com dbt e Snowflake em contexto pratico e orientado a producao.",
+    en: "2023–2025 · Data Engineer (Analytics Engineering Focus) — Development of ETL pipelines, dimensional modeling and dbt/Snowflake projects in practical, production-oriented contexts."
   },
   "exp.2": {
     pt: "Experiência anterior em sistemas técnicos, operações e análise, com forte componente prática e resolução de problemas.",
