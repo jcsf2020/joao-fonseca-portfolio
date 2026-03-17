@@ -1,15 +1,15 @@
 const T = {
   role: {
-    pt: "Analytics Engineer · Snowflake · dbt · Modern Data Stack",
-    en: "Analytics Engineer · Snowflake · dbt · Modern Data Stack"
+    pt: "Data Engineer · Analytics Engineer · Python · SQL · Airflow · dbt · Snowflake",
+    en: "Data Engineer · Analytics Engineer · Python · SQL · Airflow · dbt · Snowflake"
   },
 
   portfolio: { pt: "Portfólio", en: "Portfolio" },
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Data/Analytics Engineer com foco em Snowflake + dbt e execucao deterministica. Construo plataformas analiticas com arquitetura em camadas (staging -> intermediate -> marts), modelacao dimensional (star schema, SCD2) e data quality como contrato (0-row gates). Orquestracao em Python (SQL-first), observabilidade por run (pipeline_run_log) e CI para smoke tests. Prova PHC Analytics (2026-02-27): run_id e3ea7fbe-eaa8-45f8-b540-350bc3414c87; evidence available on request.",
-    en: "Data/Analytics Engineer focused on Snowflake + dbt and deterministic execution. I build production-grade analytics platforms with layered architecture (staging -> intermediate -> marts), dimensional modeling (star schema, SCD2), and data quality as a contract (0-row gates). Python orchestration (SQL-first), run-level observability (pipeline_run_log), and CI smoke tests. PHC Analytics proof (2026-02-27): run_id e3ea7fbe-eaa8-45f8-b540-350bc3414c87; evidence available on request."
+    pt: "Data/Analytics Engineer focado em pipelines de dados e plataformas analiticas. Construo sistemas de ingestao, transformacao e modelacao utilizando Python, SQL, Airflow, dbt e Snowflake. Experiencia em arquitetura em camadas (staging -> intermediate -> marts), modelacao dimensional (star schema, SCD2), data quality como contrato e observabilidade por run. Portfolio inclui plataformas analiticas Snowflake/dbt, pipelines ERP (PHC) e ingestao de eventos GitHub com S3, Athena e Airflow.",
+    en: "Data/Analytics Engineer focused on building reliable data pipelines and analytics platforms. I design ingestion, transformation and modeling layers using Python, SQL, Airflow, dbt and Snowflake. Experience with layered architectures (staging -> intermediate -> marts), dimensional modeling (star schema, SCD2), data quality as a contract and run-level observability. Portfolio includes Snowflake/dbt analytics platforms, ERP analytics pipelines and GitHub event ingestion with S3, Athena and Airflow."
   },
 
   "skills.title": { pt: "Competências Técnicas", en: "Technical Skills" },
@@ -134,7 +134,7 @@ const T = {
 
   "cta.title": { pt: "Contacto", en: "Contact" },
   "cta.text": {
-    pt: "Aberto a oportunidades em Analytics Engineering, Snowflake e dbt — preferencialmente remotas na UE.",
-    en: "Open to Analytics Engineering opportunities with Snowflake and dbt — preferably remote within the EU."
+    pt: "Aberto a oportunidades em Data Engineering e Analytics Engineering (Python, SQL, Airflow, dbt, Snowflake) — preferencialmente remotas na UE.",
+    en: "Open to Data Engineering and Analytics Engineering opportunities (Python, SQL, Airflow, dbt, Snowflake) — preferably remote within the EU."
   }
 };
