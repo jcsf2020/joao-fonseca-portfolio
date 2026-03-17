@@ -80,26 +80,26 @@ const T = {
     en: "Modular architecture separates extraction, transformation and presentation layers for maintainability."
   },
 
-  "p3.title": { pt: "CRSET Solutions — Engineering Showcase", en: "CRSET Solutions — Engineering Showcase" },
+  "p3.title": { pt: "GitHub Events Data Pipeline", en: "GitHub Events Data Pipeline" },
   "p3.pitch": {
-    pt: "Showcase de engenharia orientado a produção, demonstrando disciplina full-stack, rigor de CI e integrações reais além do data stack.",
-    en: "Production-grade engineering showcase demonstrating full-stack discipline, CI rigor and real-world integrations beyond the data stack."
+    pt: "Pipeline de ingestao orientada a producao, construido para demonstrar fiabilidade operacional, particionamento em S3, modelacao em Athena e orquestracao com Airflow.",
+    en: "Production-oriented ingestion pipeline built to demonstrate operational reliability, S3 partitioning, Athena modeling, and Airflow orchestration."
   },
   "p3.b1": {
-    pt: "Construído com Next.js (App Router) com fronteiras de API estruturadas e deployment em produção.",
-    en: "Built with Next.js (App Router) with structured API boundaries and production deployment."
+    pt: "Cliente Python endurecido para ingestao da GitHub Public Events API com timeout, retry para erros 5xx e tratamento explicito de excecoes.",
+    en: "Hardened Python ingestion client for the GitHub Public Events API with timeout, retry for 5xx errors, and explicit exception handling."
   },
   "p3.b2": {
-    pt: "Integrações reais: fluxos de contacto/email, base de dados e operações de backend em produção.",
-    en: "Real integrations: contact/email flows, database connectivity and live backend operations."
+    pt: "Raw zone em Amazon S3 com particionamento por year/month/day e run metadata em JSON para observabilidade operacional de cada execucao.",
+    en: "Amazon S3 raw zone with year/month/day partitioning and JSON run metadata for operational observability on every execution."
   },
   "p3.b3": {
-    pt: "Pipeline CI com verificações automáticas, performance budgets, guardrails de SEO e hardening de segurança.",
-    en: "CI pipeline with automated checks, performance budgets, SEO guardrails and security hardening."
+    pt: "Camada queryable em Athena com external tables, vistas staging/core/mart e testes de monitorizacao e data quality sobre a pipeline.",
+    en: "Queryable Athena layer with external tables, staging/core/mart views, and monitoring and data quality checks over the pipeline."
   },
   "p3.b4": {
-    pt: "Demonstra ownership transversal de engenharia: entrega, observabilidade e prontidão para produção.",
-    en: "Demonstrates cross-discipline engineering ownership: delivery, observability and production readiness."
+    pt: "Orquestracao com Airflow TaskFlow API e CI com Pytest, Ruff e validacao de import da DAG via GitHub Actions.",
+    en: "Orchestration with the Airflow TaskFlow API and CI with Pytest, Ruff, and DAG import validation via GitHub Actions."
   },
 
   "exp.title": { pt: "Experiência", en: "Experience" },
