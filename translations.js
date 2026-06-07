@@ -8,8 +8,8 @@ const T = {
 
   "summary.title": { pt: "Resumo", en: "Summary" },
   "summary.text": {
-    pt: "Data Engineer focado em pipelines de dados e plataformas analíticas de nível de produção. Desenho e implemento camadas de ingestão, transformação e modelação com Azure Databricks, SQL e Python — com experiência em arquiteturas medallion, contratos de data quality, orquestração com ADF e camada de consumo analítico em SQL. Também com experiência em modelação dbt em camadas, desenho dimensional e Snowflake. Portfólio cobre plataformas lakehouse, analytics Snowflake/dbt e pipelines ERP.",
-    en: "Data Engineer focused on production-grade data pipelines and analytics platforms. I architect ingestion, transformation and modeling layers using Azure Databricks, SQL and Python — with experience in medallion architectures, data quality contracts, ADF orchestration and SQL-driven serving. Also experienced with layered dbt modeling, dimensional design and Snowflake. Portfolio covers lakehouse platforms, Snowflake/dbt analytics and ERP pipelines."
+    pt: "Data Engineer focado em pipelines de dados e plataformas analíticas validadas em contexto de portfólio. Desenho e implemento camadas de ingestão, transformação e modelação com Azure Databricks, SQL e Python — com experiência em arquiteturas medallion, contratos de data quality, orquestração com ADF e camada de consumo analítico em SQL. Também com experiência em modelação dbt em camadas, desenho dimensional e Snowflake. Portfólio cobre plataformas lakehouse, analytics Snowflake/dbt e pipelines ERP.",
+    en: "Data Engineer focused on validated data pipelines and analytics platforms. I architect ingestion, transformation and modeling layers using Azure Databricks, SQL and Python — with experience in medallion architectures, data quality contracts, ADF orchestration and SQL-driven serving. Also experienced with layered dbt modeling, dimensional design and Snowflake. Portfolio covers lakehouse platforms, Snowflake/dbt analytics and ERP pipelines."
   },
 
   "skills.title": { pt: "Competências Técnicas", en: "Technical Skills" },
@@ -31,8 +31,8 @@ const T = {
   // p1 — Azure Lakehouse ETL Platform (flagship)
   "p1.title": { pt: "Azure Lakehouse ETL Platform", en: "Azure Lakehouse ETL Platform" },
   "p1.pitch": {
-    pt: "Plataforma Azure Lakehouse de nível de produção com arquitetura medallion, camada Gold definida em SQL e contratos de data quality aplicados.",
-    en: "Production-grade Azure Lakehouse platform with medallion architecture, SQL-driven Gold serving and enforced data quality contracts."
+    pt: "Plataforma Azure Lakehouse validada em contexto de portfólio com arquitetura medallion, camada Gold definida em SQL e contratos de data quality aplicados.",
+    en: "Validated Azure Lakehouse portfolio platform with medallion architecture, SQL-driven Gold serving and enforced data quality contracts."
   },
   "p1.b1": {
     pt: "Arquitetura medallion (Bronze → Silver → Gold) com ADLS Gen2 para armazenamento e separação clara entre ingestão, transformação e serving.",

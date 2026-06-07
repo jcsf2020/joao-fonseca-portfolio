@@ -11,7 +11,7 @@ You are refactoring a live CV website for a Data Engineer targeting remote EU ro
 
 This is NOT an academic CV.
 This is NOT a generalist profile.
-This is a production-focused Analytics Engineer positioning.
+This is a validated portfolio-based Analytics Engineer positioning.
 
 Your mission:
 Refactor the entire CV Live site content to maximize recruitment impact for Snowflake + dbt roles.
